@@ -9,7 +9,7 @@ AutoInternetArchive is a very simple program designed to automatically archive w
 ```
 pip install -r requirements.txt
 ```
-4. To run make sure to CD to the directory where AutoInternetArchive.py is located and run this command **python AutoInternetArchive.py**
+4. To run make sure to CD to the directory where AutoInternetArchive.py is located and run this command:
 ```
 python AutoInternetArchive.py
 ```
