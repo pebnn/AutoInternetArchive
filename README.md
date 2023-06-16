@@ -4,7 +4,7 @@ AutoInternetArchive is a very simple program designed to automatically archive w
 
 ## How to run AutoInternetArchive
 1. Download SteamAutoFriend from https://github.com/pebnn/AutoInternetArchive/archive/refs/heads/main.zip
-2. install python 3 https://www.python.org/downloads/  *(Add python to PATH in installation screen)*
+2. install python https://www.python.org/downloads/  *(Add python to PATH in installation screen)*
 3. Open a console window and [CD](https://www.lifewire.com/change-directories-in-command-prompt-5185508) to the folder where AutoInternetArchive.py is located. Now run this command: 
 ```
 pip install -r requirements.txt
