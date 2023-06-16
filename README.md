@@ -13,3 +13,4 @@ pip install -r requirements.txt
 ```
 python AutoInternetArchive.py
 ```
+5. Now follow instructions printed in console
