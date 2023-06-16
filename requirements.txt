@@ -1,0 +1,2 @@
+waybackpy~=3.0.6
+user-agent~=0.1.10
