@@ -13,7 +13,7 @@ while True:
 
     # Grab URL to archive, if URL is empty, move on
     url = input()
-    if url == "" or " " in url and len(url) < 5:
+    if url == "" or " " in url and len(url) < 3:
         break
 
     # Grab interval in hours at which the script will archive the URLs
