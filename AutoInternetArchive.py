@@ -41,9 +41,11 @@ def Time():
 
 def ArchiveURL(url, interval):
     while True:
-        print(Time() + "Archive started for: " + url)
-        save_api = WaybackMachineSaveAPI(url, user_agent())
-        save_api.save()
+        try:
+            print(Time() + "Archive started for: " + url)
+            save_api = WaybackMachineSaveAPI(url, user_agent())
+            save_api.save()
+        except (waybackpy.exceptions.TooManyRequestsError, waybackpy.exceptions.MaximumSaveRetriesExceeded):
         if interval == 1:
             hour = " hour!"
         else:
